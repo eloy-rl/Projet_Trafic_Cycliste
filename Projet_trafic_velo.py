@@ -13,7 +13,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
    # Ajouter une image
-st.image("images\couv.png", caption="Ceci est une légende pour l'image", use_container_width=True)
+st.image("images\couv.png", caption="Ceci est une légende pour l'image", use_column_width=True)
 
 
 def main():

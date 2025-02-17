@@ -13,7 +13,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
    # Ajouter une image
-st.image("images/couv.png", caption="Ceci est une légende pour l'image", use_container_width=True)
+st.image("images/couv.png", caption="Projet Trafic Cycliste - DataScientest - DEC24_BOOTCAMP_DA", use_container_width=True)
 
 
 def main():

@@ -4,26 +4,22 @@ import streamlit as st
 
 
 
-st.markdown("""
-<style>
-table {background-color: #f0f0f0;}
-</style>
-""", unsafe_allow_html=True)
-#st.dataframe(df)
-
 # Configuration de la page
 
-#st.set_page_config(
- #   page_title="Projet trafic Cycliste",
-  #  page_icon="🚲",
-   # layout="wide",
-    #initial_sidebar_state="expanded",
-#)
-
+st.set_page_config(
+    page_title="Projet trafic Cycliste",
+    page_icon="🚲",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
+   # Ajouter une image
+st.image("images\couv.png", caption="Ceci est une légende pour l'image", use_container_width=True)
 
 
 def main():
     st.title("Projet trafic Cycliste")
+    
+    
 
     # Sidebar pour la navigation
     st.sidebar.title("Navigation")
